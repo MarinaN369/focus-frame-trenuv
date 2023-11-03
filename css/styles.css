@@ -42,11 +42,13 @@ img {
 }
 .icons-header {
   display: flex;
+  flex-direction: row;
   gap: 14px;
+  margin-left: auto;
 }
 .info-icons-cam {
   border-radius: 50%;
-  fill: #1d1d1d;
+  background-color: #1d1d1d;
 }
 .header-container {
   width: 335px;
@@ -183,6 +185,7 @@ img {
     display: flex;
     padding: 0 15px;
     align-items: center;
+    margin-right: auto;
   }
   .info-icons-nav {
     display: none;
@@ -198,6 +201,9 @@ img {
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
+  }
+  .header-logo {
+    margin-right: 80px;
   }
   .header-button {
     width: 238px;
@@ -234,6 +240,9 @@ img {
     display: flex;
     padding: 0 15px;
     align-items: center;
+  }
+  .header-logo {
+    margin-right: 209px;
   }
   .mob-menu {
     display: none;
